@@ -1,9 +1,9 @@
 // lib/services/auth_service.dart
 
 import 'package:dio/dio.dart';
-import 'package:ranked_padel/services/api/core/dio_service.dart';
-import 'package:ranked_padel/constants/api_constants.dart';
-import 'package:ranked_padel/utils/preferences/user_preferences.dart';
+import 'package:leafline/services/api/core/dio_service.dart';
+import 'package:leafline/constants/api_constants.dart';
+import 'package:leafline/utils/preferences/user_preferences.dart';
 
 class AuthService {
   final DioService _dioService = DioService();

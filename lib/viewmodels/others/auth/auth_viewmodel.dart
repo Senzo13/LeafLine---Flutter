@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:ranked_padel/models/auth/user.dart';
-import 'package:ranked_padel/services/api/auth/authentication_service.dart';
+import 'package:leafline/models/auth/user.dart';
+import 'package:leafline/services/api/auth/authentication_service.dart';
 
 class LoginViewModel with ChangeNotifier {
   final AuthService _authService;

@@ -1,5 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:ranked_padel/utils/decode_token.dart';
+import 'package:leafline/utils/decode_token.dart';
 
 class UserPreferences {
   static final UserPreferences _instance = UserPreferences._internal();

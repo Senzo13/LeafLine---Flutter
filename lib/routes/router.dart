@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ranked_padel/views/others/auth/auth_view.dart';
-import 'package:ranked_padel/utils/preferences/user_preferences.dart';
-import 'package:ranked_padel/views/others/navigation/base.dart';
-import 'package:ranked_padel/views/tabs/home/home_view.dart';
-import 'package:ranked_padel/main.dart';
-import 'package:ranked_padel/views/others/splash/splash_view.dart';
+import 'package:leafline/views/others/auth/auth_view.dart';
+import 'package:leafline/utils/preferences/user_preferences.dart';
+import 'package:leafline/views/others/navigation/base.dart';
+import 'package:leafline/views/tabs/home/home_view.dart';
+import 'package:leafline/main.dart';
+import 'package:leafline/views/others/splash/splash_view.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {

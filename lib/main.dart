@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ranked_padel/routes/router.dart' as app_router;
+import 'package:leafline/routes/router.dart' as app_router;
 
 void main() {
   runApp(const MyApp());

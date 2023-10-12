@@ -1,7 +1,5 @@
-// lib/services/dio_service.dart
-
 import 'package:dio/dio.dart';
-import 'package:ranked_padel/constants/api_constants.dart';
+import 'package:leafline/constants/api_constants.dart';
 
 class DioService {
   final Dio _dio = Dio(BaseOptions(baseUrl: ApiConstants.BASE_URL));
